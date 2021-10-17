@@ -107,15 +107,51 @@ body{
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     color: #001c2a;    
-    border: 3px solid #001c2a;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
+    border-bottom: 3px solid #001c2a;   
     margin-bottom: 10px;
 }
 
 .head-part p{
     font-style: italic;
     font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
     margin-top: 5px;
 }
+
+/* contact part  */
+.contact{
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.contact h1{
+    /* color: white; */
+    font-size: 45px;
+    padding: 6px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .fill-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ /* footer part  */
+
+ footer{
+     background-color: #5ce1e6;
+     color: black;
+     font-size: 16px;
+     padding: 6px 0;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ footer span{
+     color: #5e17eb;
+     font-weight: 500;
+     font-size: 18px;
+ }
