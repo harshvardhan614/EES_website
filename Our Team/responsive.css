@@ -106,6 +106,16 @@
 
  @media (max-width: 640px){
 
+    /* team heading part  */
+    .head-part h1{
+        font-size: 30px;
+        border-bottom: 2px solid #001c2a;
+    }
+   .head-part p{
+       font-size: 10px;
+       margin-top: 3px;
+   }
+
     /* contact part  */
     .contact h1 {
         font-size: 25px;
