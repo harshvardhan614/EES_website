@@ -1,4 +1,20 @@
 /* responsiveness part  */
+@media (max-width: 1170px) {
+
+    .card-part{
+        margin: 40px 0;
+    }
+    .team-card{
+        margin: 20px 10px;
+    }
+    .team-card .card{
+        margin: 15px ;
+    }
+}
+
+
+
+
 @media (max-width: 900px) {
     /* navigation bar  */
     .menu {
@@ -30,6 +46,10 @@
         display: block;
     }
 
+    /* card part  */
+    .team-card .card {
+        margin: 20px 50px;
+    }
     /* .contact part  */
     .contact{
         padding: 10px 0

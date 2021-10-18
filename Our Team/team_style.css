@@ -1,6 +1,9 @@
 /* google poppins font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
 /* font-family: 'Poppins', sans-serif; */
+/* google montserrat fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
 
 /* common css part  */
 *{
@@ -119,6 +122,130 @@ body{
     margin-top: 5px;
 }
 
+/* card part css  */
+.card-part{
+    margin: 60px 20px 40px 20px;
+
+}
+/* head-card css */
+.head-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px ;
+}
+
+.head-card .card{
+    height: 400px;
+}
+
+.head-card .card p{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    letter-spacing: .1rem;
+    color: #4f585c;
+    margin-top: 8px;
+}
+
+.team-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 20px ;
+}
+
+.team-card .card{
+    margin: 20px 50px;
+}
+
+/* card css part  */
+.card{
+    margin: 10px 40px;
+    width: 250px;
+    height: 380px;
+    background-color: white;
+    box-shadow: 4px 5px 15px rgb(0 0 0 / 30%);
+}
+
+
+.card .img-box{
+    margin: 0 25px;
+    position: relative;
+}
+
+.card .img-box img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card .detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.card .content .detail h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500; 
+    background-color: white; 
+    padding: 2px 14px;  
+    position: absolute;
+    top: -36px;          
+}
+
+.card .content .detail h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 10px auto 6px;
+    color: #001c2a;
+}
+
+.social-link{
+    display: flex;
+    align-items: center;   
+}
+
+.social-link li{
+    list-style: none;
+    margin: 8px 12px;
+}
+
+.social-link li a{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    padding:  12px;
+    border: 2px solid #004aad;
+    border-radius: 50%;
+    color: #004aad;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.social-link li:hover a{
+    background-color: #004aad;
+    color: white;  
+    transform: rotate(360deg);  
+}
+
+
+
+
+
+
+
 /* contact part  */
 .contact{
    
@@ -213,7 +340,7 @@ body{
     border-radius: 50%;
     background-color: #5ce1e6;
     color: white;   
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     transition: all 0.3s;
 }
 
