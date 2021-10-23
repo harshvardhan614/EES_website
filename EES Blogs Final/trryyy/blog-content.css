@@ -1,0 +1,71 @@
+
+/*Blog--------------------content*/  
+.blog-header{
+    margin-bottom: 5vw;
+}
+.blog-title{
+	font-size: 4vw;
+	color: #001c2a;
+	align-items: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+.heading-1{
+	display: flex;
+    align-content: center;
+    justify-content: center; 
+    position: sticky;
+	padding: 2vw 2vw;
+	height: 4vw;
+}
+.author{
+	display: flex;
+    align-content: flex-end;
+    justify-content: flex-end; 
+    position: sticky;
+	font-size: 1vw;
+}
+.author-name{
+	color: #001c2a;
+}
+.content{
+	display: flex;
+	justify-content: flex-start;
+	
+	margin-top: 3vw;
+	width: 30vw; 
+}
+.content-2{
+    display: flex;
+    flex-direction: column;
+	color: black;
+     /* padding-right: 3.5vw;  */
+    font-size: 1.2vw;
+     margin-top: 3vw; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.subtitle{
+    font-size: 1.5vw;
+}
+.sub-content{
+    font-size: 1.2vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.back{
+	background-color: white;
+	margin: 10vw 15vw;
+	box-shadow:0 -2px 12px rgb(0 0 0 / 30%);
+	padding: 4vw;
+}
+.division{
+    display: flex;
+    height: 23vw;
+}
+.division img{
+     height: 20vw; 
+     padding-left: 2vw;
+     padding-right: 2vw;
+}
+.break-words{
+    overflow-wrap: break-word;
+}
