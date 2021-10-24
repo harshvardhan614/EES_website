@@ -1,0 +1,202 @@
+/* google poppins font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* google montserrat fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* common css part  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: #000000;
+}
+
+/* common part styling */
+.max-width{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* navbar styling  */
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: #001c2a;
+    z-index: 99;
+    width: 100%;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    padding: 3px 0;
+}
+
+.logo img{
+    height: 80px;
+    width: auto;
+}
+
+.menu li {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif; 
+    padding: 10px;
+    margin: 0 5px;
+    
+}
+
+.menu li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    transition: all ease 0.3s;
+    
+}
+
+.menu li:hover a{
+    color: #5ce1e6;
+
+}
+
+
+.menu-btn{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 8px 15px;   
+    display: none;
+    border-radius: 3px;
+    transition: all ease 0.3s;
+    margin :0 10px 0 0;
+}
+
+.menu-btn:hover{
+    background-color: #5ce1e6;
+    color: #001c2a;
+}
+
+#click{
+    display: none;
+}
+
+#click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+
+h1{    
+    font-size: 45px;
+    padding: 0 0 15px 0;
+    text-align: center;
+    font-family: sans-serif;
+    color: #5ce1e6;
+    text-decoration: underline;
+}
+h4{
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #5ce1e6;
+    text-decoration: underline;
+}
+input{
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 95px;
+    height: 30px;
+}
+textarea{
+    margin: 5px;
+    margin-left: 10px;
+}
+
+  /* contact part  */
+.contact{
+   
+    background: linear-gradient( #001c2a96 , #001c2a96  ), url("../Data/Common/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin-top: 40px;
+    padding: 20px 0;
+    color: white;
+    font-family: 'Poppins', sans-serif ;
+        
+}
+
+.contact .fill-up{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    /* padding-bottom: 30px; */
+}
+
+.contact h4{
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #5ce1e6;
+    text-align: left;
+    margin-left: 15rem;
+}
+
+.btn {
+    background: #5ce1e6;
+    /* background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9); */
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 6px 15px 6px 16px;
+    text-decoration: none;
+    margin-left: 230px;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+
+
+ /* footer part  */
+
+ footer{
+    background-color: #5ce1e6;
+    color: black;
+    font-size: 16px;
+    padding: 6px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+footer span{
+    color: #5e17eb;
+    font-weight: 500;
+    font-size: 18px;
+}
