@@ -14,8 +14,11 @@
     list-style-type: none;
 }
 
+
 body{
-    background-color: #eaecf49f;
+    background-color: #010e18;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
 }
 
 /* common part styling */
@@ -23,6 +26,10 @@ body{
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+section {
+    padding: 100px 0;
 }
 
 /* navbar styling  */
@@ -97,6 +104,117 @@ body{
     content: "\f00d";
   }
 
+
+  /* home section styling */
+.home{
+    display: flex;
+    background: url("../Data/Common/final.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    font-family: 'Poppins', sans-serif ;
+}
+
+.home .max-width{
+   margin: auto 0 auto 40px;
+  }
+
+  .home .home-content{
+      margin-top: -120px;
+  }
+
+  .home .home-content .text-1{
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.home .home-content .text-2{
+    font-size: 60px;    
+    font-weight: 700;
+    margin-left: -10px;
+    color: #5ce1e6;
+}
+.home .home-content .text-3{
+    font-size: 16px;   
+   
+}
+ 
+
+/* about page part  */
+.about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 100px;
+    /* justify-content: space-around; */
+}
+
+.about .about-content .left{
+    width: 47%;   
+    padding-left: 50px;
+}
+.about .about-content .left .boxing{
+    background: url("../Data/Common/home_page_image/2.jpg") no-repeat center;   
+    height: 280px;
+    width: 380px;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
+    cursor: pointer;
+}
+
+
+.about .about-content .left .boxing::before{
+    content: " ";
+    background: url("../Data/Common/home_page_image/1.jpg") no-repeat center;
+    position: absolute;    
+    top: 70px;
+    left: 70px;
+    height: 280px;
+    width: 380px;
+    background-size: cover;
+    z-index: -4; 
+    
+}
+
+.about .about-content .left .boxing::after{
+    content: " ";
+    background: url("../Data/Common/home_page_image/3.jpg") no-repeat center;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    height: 280px;
+    width: 380px;
+    background-size: cover;
+    z-index: -8;
+}
+
+.about .about-content .right{
+    width: 53%;
+    padding: 50px 25px 0 0;
+}
+
+
+.about .about-content .right .title{
+    margin: 0 0 20px 15px ;    
+    color: #5ce1e6;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.about .about-content .right p {
+    text-align: justify;
+ }
+
+.about .about-content .right .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    color: #5ce1e6;    
+}
 
   /* contact part  */
 .contact{

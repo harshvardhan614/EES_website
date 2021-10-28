@@ -207,6 +207,72 @@ body{
     transform: rotate(360deg) ;  
 }
 
+
+/* form message code  */
+.form{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form span{
+ font-size: 30px;
+ color: #5ce1e6;
+ font-weight: 400;
+ border-bottom: 2px solid #5ce1e6;
+ padding-bottom: 5px;
+ margin-left: 10px; 
+}
+
+form{
+    margin: 30px 10px;
+}
+
+.fields{
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.fields .field{
+    width: 100%;
+}
+
+.fields .select{
+    margin-right: 15px;
+}
+
+.fields .field input,
+textarea{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey;
+    background: rgb(255, 252, 252);
+    border-radius: 3px;
+    outline: none;
+    padding: 8px 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.form form button{
+    color: #fff;
+    display: block;   
+    padding: 8px 35px;   
+    outline: none;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 40px;
+    cursor: pointer;    
+    background: #5ce1e6;
+    border: 2px solid #5ce1e6;
+    margin: 20px 0 0 20px;
+    transition: all 0.3s ease;
+  }
+  .form form  button:hover{
+    color: #5ce1e6;
+    background: none;
+  }
+
  /* footer part  */
 
  footer{
@@ -321,6 +387,14 @@ footer span{
     #map-box{
         grid-column-start: initial;
         grid-column-end:initial ;
+    }
+
+    .fields{
+        flex-direction: column;
+    }
+
+    .fields .select{
+        margin-bottom: 15px;
     }
 
    
