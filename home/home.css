@@ -29,7 +29,7 @@ body{
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 /* navbar styling  */
@@ -155,7 +155,7 @@ section {
     width: 47%;   
     padding-left: 50px;
 }
-.about .about-content .left .boxing{
+.about .about-content .column .boxing{
     background: url("../Data/Common/home_page_image/2.jpg") no-repeat center;   
     height: 280px;
     width: 380px;
@@ -166,7 +166,7 @@ section {
 }
 
 
-.about .about-content .left .boxing::before{
+.about .about-content .column .boxing::before{
     content: " ";
     background: url("../Data/Common/home_page_image/1.jpg") no-repeat center;
     position: absolute;    
@@ -179,7 +179,7 @@ section {
     
 }
 
-.about .about-content .left .boxing::after{
+.about .about-content .column .boxing::after{
     content: " ";
     background: url("../Data/Common/home_page_image/3.jpg") no-repeat center;
     position: absolute;
@@ -191,13 +191,15 @@ section {
     z-index: -8;
 }
 
+
+
 .about .about-content .right{
     width: 53%;
     padding: 50px 25px 0 0;
 }
 
 
-.about .about-content .right .title{
+.about .about-content .column .title{
     margin: 0 0 20px 15px ;    
     color: #5ce1e6;
     font-size: 60px;
@@ -205,16 +207,148 @@ section {
     font-weight: 700;
 }
 
-.about .about-content .right p {
+.about .about-content .column p {
     text-align: justify;
  }
 
-.about .about-content .right .text {
+.about .about-content .column .text {
     font-size: 20px;
     font-weight: 600;
     margin-right: 10px;
     color: #5ce1e6;    
 }
+
+
+/* aatish section  */
+.about .about-content .aatish-right{
+    width: 53%;
+    padding: 50px  0 0 50px;
+}
+
+.about .about-content .column .boxinger{
+    background: url("../Data/Common/home_page_image/2.jpg") no-repeat center;   
+    height: 280px;
+    width: 380px;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
+    cursor: pointer;    
+    float: right;
+    margin-right: 40px;
+}
+
+
+.about .about-content .column .boxinger::before{
+    content: " ";
+    background: url("../Data/Common/home_page_image/1.jpg") no-repeat center;
+    position: absolute;    
+    top: 70px;
+    right: 70px;
+    height: 280px;
+    width: 380px;
+    background-size: cover;
+    z-index: -4; 
+    
+}
+
+.about .about-content .column .boxinger::after{
+    content: " ";
+    background: url("../Data/Common/home_page_image/3.jpg") no-repeat center;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    height: 280px;
+    width: 380px;
+    background-size: cover;
+    z-index: -8;
+}
+
+
+/* faculty advisor section  */
+/* faculty page css */
+#faculty {
+    background-color: black;
+    color: white;
+    margin: 40px 0px;
+  }
+  
+  div #adhead {
+    font-size: 1.8rem;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  #faculty h1::after {
+    content: "";
+    border: 2px solid #2f9484;
+    display: block;
+    width: 320px;
+    margin: 14px auto;
+  }
+  div .line {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    line-height: 1.8rem;
+  }
+  
+  /* faculty members row css */
+  #row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  
+  div#row .box {
+    padding: 10px 15px;
+  }
+  div#row .box .box1,
+  div#row .box .box2,
+  div#row .box .box3 {
+    padding: 10px 20px;
+  }
+  
+  div#row .box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border: 10px double #fff;
+    border-radius: 10px;
+  }
+  
+  #row h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3srem;
+    font-weight: 450;
+    margin: 30px auto;
+    letter-spacing: 0.1rem;
+  }
+  
+  #row h3::after {
+    content: "";
+    border: 2px solid #1a94c4;
+    display: block;
+    width: 310px;
+    margin: 15px auto;
+  }
+  #row h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px auto;
+  }
+  
+  #row h5 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px auto;
+  }
+
 
   /* contact part  */
 .contact{
