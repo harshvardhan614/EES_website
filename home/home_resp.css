@@ -1,0 +1,16 @@
+@media (max-width: 1150px){
+    .home .home-content .text-1{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 50px;   
+       }
+
+    .home .home-content .text-3{
+        font-size: 16px;   
+       
+    }
+
+}

@@ -137,7 +137,7 @@ section {
     color: #5ce1e6;
 }
 .home .home-content .text-3{
-    font-size: 16px;   
+    font-size: 20px;   
    
 }
  
@@ -269,7 +269,7 @@ section {
 #faculty {
     background-color: black;
     color: white;
-    margin: 40px 0px;
+    margin: 60px 0px;
   }
   
   div #adhead {
@@ -281,10 +281,10 @@ section {
   }
   #faculty h1::after {
     content: "";
-    border: 2px solid #2f9484;
+    border: 2px solid #1a94c4;
     display: block;
     width: 320px;
-    margin: 14px auto;
+    margin: 4px auto 15px;
   }
   div .line {
     text-align: center;
@@ -339,21 +339,91 @@ section {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
-    margin: 10px auto;
+    margin: 0px auto;
   }
   
   #row h5 {
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
-    margin: 10px auto;
+    margin: 0px auto;
   }
+
+
+  /* testimonials part css  */
+ .testy .testy-content{
+     display: flex;
+     flex-direction: column;     
+     align-items: center;
+     justify-content: center;
+ }
+
+ .testy .testy-content h1{
+    font-size: 2.5rem;   
+    font-weight: 400;  
+    color: #5ce1e6; 
+ }
+
+    .testy .testy-content h1::after {
+    content: "";
+    border: 2px solid #5ce1e6;
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+#slide{
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+    justify-content: center;   
+    margin: 50px 0;
+}
+
+.testy .testy-content #content{
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+
+.testy .testy-content #content .img-box{
+    margin: 30px 0;
+}
+
+.testy .testy-content #content img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover ;
+    border: 3px solid #2f9484;
+}
+
+.testy .testy-content #content  p{
+    text-align: center;
+    letter-spacing: .8px;
+}
+
+.testy .testy-content #content h2{
+    margin-top: 20px;
+    font-weight: 500;
+    color: #5ce1e6;    
+}
+
+.testy .testy-content #content h4{
+    font-size: 20px;    
+    font-weight: 500;
+    color: #5ce1e6;    
+}
 
 
   /* contact part  */
 .contact{
    
-    background: linear-gradient( #001c2a96 , #001c2a96  ), url("../Data/Common/contact.jpg");
+    background: linear-gradient( #001c2abd , #001c2aba  ), url("../Data/Common/contact.jpg");
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -361,6 +431,7 @@ section {
     padding: 20px 0;
     color: white;
     font-family: 'Poppins', sans-serif ;
+    border-top: .1px solid #1a94c4;
 }
 
 .contact h1{    
