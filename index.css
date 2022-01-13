@@ -121,9 +121,9 @@ section {
    margin: auto 0 auto 40px;
   }
 
-  .home .home-content{
+  /* .home .home-content{
       margin-top: -120px;
-  }
+  } */
 
   .home .home-content .text-1{
     font-size: 27px;
@@ -298,19 +298,20 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 10px 10px;
   }
   
-  div#row .box {
+  div#row .boxes {
     padding: 10px 15px;
   }
-  div#row .box .box1,
-  div#row .box .box2,
-  div#row .box .box3 {
+  div#row .boxes .box1,
+  div#row .boxes .box2,
+  div#row .boxes .box3 {
     padding: 10px 20px;
   }
   
-  div#row .box img {
+  div#row .boxes img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -322,7 +323,7 @@ section {
   #row h3 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.3srem;
+    font-size: 1.3rem;
     font-weight: 450;
     margin: 30px auto;
     letter-spacing: 0.1rem;
@@ -375,10 +376,10 @@ section {
 
 #slide{
     display: flex;
-    flex-direction: column;     
-    align-items: center;
+    /* flex-direction: column;      */
+     align-items: center;
     justify-content: center;   
-    margin: 50px 0;
+    margin: 50px 0; 
 }
 
 .testy .testy-content #content{

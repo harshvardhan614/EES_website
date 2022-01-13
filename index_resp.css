@@ -14,3 +14,301 @@
     }
 
 }
+
+@media (max-width: 900px) {
+    /* navigation bar  */
+    .menu {
+        position: fixed;
+        top: 80px;
+       right: -100%;
+        background-color: #001c2a;
+        height: 100vh;
+        width: 100%;  
+        text-align: center;  
+        transition: all ease 0.3s;   
+    }
+ 
+    #click:checked ~ .menu{
+     right: 0%;
+ }
+ 
+ 
+    .menu li{
+        display: block;
+        margin: 20px auto;       
+    }
+ 
+    .menu li a{
+     font-size: 24px;
+    }
+ 
+    .menu-btn{
+        display: block;
+    }
+
+
+    /* home part */
+
+    .home .home-content .text-1{
+        font-size: 18px;       
+    }
+    
+    .home .home-content .text-2{
+        font-size: 40px;   
+       }
+
+    .home .home-content .text-3{
+        font-size: 15px;   
+       
+    }
+
+    /* faculty advisor part  */
+    div .line {       
+        font-size: 1rem;        
+        line-height: 1.5rem;
+        padding: 10px 50px;
+    }
+
+
+    /* testimonials part  */
+    .testy .testy-content #content {       
+        width: 80%;
+    }
+
+    /* .contact part  */
+    .contact{
+        padding: 10px 0
+    }
+    .contact h1 {
+        font-size: 35px;
+    }
+
+    .box{        
+        margin-left: 0px;
+        padding: 0 10px;
+    }
+    .box-1 .content-1{
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .box-1 i {        
+        font-size: 20px;
+    }
+
+    .content-1 .fa-map-marker-alt{
+        font-size: 30px;
+    }
+    
+    .box h4{
+        font-size: 15px;
+    }
+
+    .box-2 .data a {
+        font-size: 15px;
+    }
+    .box-2 .data i {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    
+    .social-icon li a {       
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    /* footer part  */
+    footer{
+        font-size: 12px;
+    }
+
+    footer span{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 780px){    
+    
+    /* home section  */
+    .home .home-content .text-2{
+        font-size: 35px;   
+       }   
+
+       /* faculty part  */
+       div#row .boxes img {       
+        width: 200px;     
+        border: 8px double #fff;
+        border-radius: 10px;
+    }
+
+    #row h3 {       
+        font-size: 1rem;      
+        margin: 20px auto 10px;        
+    }
+
+    #row h3::after {              
+        width: 240px; 
+    }
+
+    #row h4 {        
+        font-size: 1.2rem;       
+    }
+
+    #row h5 {
+        font-size: .8rem;
+    }
+
+    /* testimonials part  */
+    .testy .testy-content #content {       
+        width: 90%;
+    }
+
+    .testy .testy-content #content img {
+        height: 150px;
+        width: 150px;        
+        border: 2px solid #2f9484;
+    }
+
+    .testy .testy-content #content .img-box {
+        margin: 30px 0 15px;
+    }
+
+}
+
+
+@media (max-width: 640px){
+     /* home part */
+
+     .home .home-content .text-1{
+        font-size: 14px;       
+    }
+    
+    .home .home-content .text-2{
+        font-size: 25px;   
+        margin-left: -5px;
+       }
+
+    .home .home-content .text-3{
+        font-size: 10px;   
+       
+    }
+
+    /* contact part  */
+    .contact h1 {
+        font-size: 25px;
+    }
+
+    .box-2{
+        display: none;
+    }
+
+     /* footer part  */
+     footer{
+        font-size: 11px;       
+    }
+
+    footer span{
+        font-size: 11px;
+    }
+ }
+
+
+  /* mobile port  */
+  @media (max-width: 500px){
+    
+    /* faculty advisor part  */
+    div #adhead {
+        font-size: 1.4rem;
+    }
+
+    #faculty h1::after {       
+        border: 2px solid #1a94c4;       
+        width: 240px;        
+    }
+
+    div .line {
+        font-size: .8rem;
+        line-height: 1.3rem;
+        padding: 10px 20px;
+    }
+
+    /* testimonials part  */
+    .testy .testy-content h1 {
+        font-size: 2rem;        
+    }
+
+    .testy .testy-content h1::after {
+       border: 1px solid #5ce1e6;        
+    }
+   
+    .testy .testy-content #content p {
+       font-size: .8rem;
+    }
+
+    .testy .testy-content #content h2 {
+        font-size: 1.2rem;
+    }
+
+    .testy .testy-content #content h4 {
+        font-size: 1rem;
+    }
+
+    /* contact part  */
+    .contact .fill-up{
+        flex-direction: column;
+    }
+    
+    .box h4 {
+        text-align: center;
+        padding: 10px 0 5px 0;
+    }
+
+    .social-icon li{
+        display: inline-block;
+        margin: 8px 16px;
+    }
+
+    /* footer part  */ 
+
+   footer span{
+       display: none;
+   }
+}
+
+@media (max-width: 390px){
+
+    /* navigation part  */
+    .logo img {
+        height: 60px;
+        width: auto;
+    }
+
+    /* home section  */
+
+    .home{        
+        min-height: 300px;
+    }
+
+    /* .home .home-content {
+        margin-top: 0px;
+    } */
+
+    .home .home-content .text-1{
+        font-size: 12px;       
+    }
+    
+    .home .home-content .text-2{
+        font-size: 20px;   
+        margin-left: -3px;
+       }
+
+    .home .home-content .text-3{
+        font-size: 8px;   
+       
+    }   
+
+    
+}
