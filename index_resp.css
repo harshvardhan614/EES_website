@@ -13,6 +13,34 @@
        
     }
 
+      /* faculty part  */
+      div#row .boxes img {       
+        width: 200px;     
+        border: 8px double #fff;
+        border-radius: 10px;
+    }
+
+    div#row .boxes .box1, div#row .boxes .box2, div#row .boxes .box3 {
+        padding: 10px 0px;
+    }
+
+    #row h3 {       
+        font-size: 1rem;      
+        margin: 20px auto 10px;        
+    }
+
+    #row h3::after {              
+        width: 240px; 
+    }
+
+    #row h4 {        
+        font-size: 1.2rem;       
+    }
+
+    #row h5 {
+        font-size: .8rem;
+    }
+
 }
 
 @media (max-width: 900px) {
@@ -137,29 +165,7 @@
         font-size: 35px;   
        }   
 
-       /* faculty part  */
-       div#row .boxes img {       
-        width: 200px;     
-        border: 8px double #fff;
-        border-radius: 10px;
-    }
-
-    #row h3 {       
-        font-size: 1rem;      
-        margin: 20px auto 10px;        
-    }
-
-    #row h3::after {              
-        width: 240px; 
-    }
-
-    #row h4 {        
-        font-size: 1.2rem;       
-    }
-
-    #row h5 {
-        font-size: .8rem;
-    }
+     
 
     /* testimonials part  */
     .testy .testy-content #content {       
