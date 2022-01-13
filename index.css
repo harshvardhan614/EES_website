@@ -156,7 +156,7 @@ section {
     padding-left: 50px;
 }
 .about .about-content .column .boxing{
-    background: url("../Data/Common/home_page_image/2.jpg") no-repeat center;   
+    background: url("Data/Common/home_page_image/2.jpg") no-repeat center;   
     height: 280px;
     width: 380px;
     background-size: cover;
@@ -168,7 +168,7 @@ section {
 
 .about .about-content .column .boxing::before{
     content: " ";
-    background: url("../Data/Common/home_page_image/1.jpg") no-repeat center;
+    background: url("Data/Common/home_page_image/1.jpg") no-repeat center;
     position: absolute;    
     top: 70px;
     left: 70px;
@@ -181,7 +181,7 @@ section {
 
 .about .about-content .column .boxing::after{
     content: " ";
-    background: url("../Data/Common/home_page_image/3.jpg") no-repeat center;
+    background: url("Data/Common/home_page_image/3.jpg") no-repeat center;
     position: absolute;
     top: 35px;
     left: 35px;
@@ -226,7 +226,7 @@ section {
 }
 
 .about .about-content .column .boxinger{
-    background: url("../Data/Common/home_page_image/2.jpg") no-repeat center;   
+    background: url("Data/Common/home_page_image/2.jpg") no-repeat center;   
     height: 280px;
     width: 380px;
     background-size: cover;
@@ -240,7 +240,7 @@ section {
 
 .about .about-content .column .boxinger::before{
     content: " ";
-    background: url("../Data/Common/home_page_image/1.jpg") no-repeat center;
+    background: url("Data/Common/home_page_image/1.jpg") no-repeat center;
     position: absolute;    
     top: 70px;
     right: 70px;
@@ -253,7 +253,7 @@ section {
 
 .about .about-content .column .boxinger::after{
     content: " ";
-    background: url("../Data/Common/home_page_image/3.jpg") no-repeat center;
+    background: url("Data/Common/home_page_image/3.jpg") no-repeat center;
     position: absolute;
     top: 35px;
     right: 35px;
