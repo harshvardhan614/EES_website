@@ -13,9 +13,90 @@
        
     }
 
+    /* aatish and about page  */
+    .about .about-content{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .about .about-content-2{
+        flex-direction: column-reverse;
+    }
+   
+    
+    .about .about-content .left {        
+        padding-left: 10px;
+    }
+
+    .about .about-content .left {
+        width: 60%;
+    }
+
+    
+    .about .about-content .right {
+        width: 80%;
+        margin: 50px 25px ;
+    }
+
+
+    .about .about-content .aatish-right {       
+        margin: 50px 25px;
+        width: 80%;
+        margin-bottom: 100px;
+    }
+
+
+    .about .about-content .column .boxing{
+        height: 250px;
+        width: 350px;
+        /* border: 2px solid #1a94c4; */
+    }
+    
+    
+    .about .about-content .column .boxing::before{
+        height: 250px;
+       width: 350px;      
+       top: 60px;
+       left: 120px;  
+       border: 3px solid #5ce1e6;
+    }
+    
+    .about .about-content .column .boxing::after{
+        height: 250px;
+       width: 350px;
+       top: 20px;
+       left: 250px; 
+       /* border: 2px solid #1a94c4; */
+    }
+    
+
+    .about .about-content .column .boxinger {
+       margin-right: 20px;
+       height: 250px;
+       width: 350px;
+    }
+
+    .about .about-content .column .boxinger::before{      
+        height: 250px;
+        width: 350px;   
+        top: 60px;
+        right: 110px;  
+        border: 3px solid #5ce1e6;
+        }
+    
+    .about .about-content .column .boxinger::after{      
+        height: 250px;
+        width: 350px;      
+        top: 25px;
+        right: 260px;
+    }
+
+    
+
       /* faculty part  */
       div#row .boxes img {       
-        width: 200px;     
+        width: 200px; 
+        height: 250px;    
         border: 8px double #fff;
         border-radius: 10px;
     }
@@ -88,6 +169,24 @@
     .home .home-content .text-3{
         font-size: 15px;   
        
+    }
+
+    /* aatish and about section  */
+
+    .about .about-content .left {
+        width: 75%;
+    }
+
+    .about .about-content .right {
+        width:  90%;
+        margin: 50px 0px ;
+    }
+
+
+    .about .about-content .aatish-right {
+        width: 90%;
+        margin: 50px 0px ;
+        padding: 50px 0 0 0px;
     }
 
     /* faculty advisor part  */
@@ -165,7 +264,34 @@
         font-size: 35px;   
        }   
 
-     
+
+       /* aatish and about section part  */
+       .about .about-content .column .boxing::before {       
+        top: 50px;
+        left: 75px;        
+    }
+
+    .about .about-content .column .boxing::after {   
+        left: 170px;
+    }
+
+    .about .about-content .column .boxinger,
+    .about .about-content .column .boxing ,
+    .about .about-content .column .boxing::after,
+    .about .about-content .column .boxinger::after{
+         background: none;
+    }
+
+
+    .about .about-content .column .boxinger::before {      
+        top: 50px;
+        right: 90px;
+    }
+
+    .about .about-content .column .boxinger::after {       
+        top: 25px;
+        right: 180px;
+    }
 
     /* testimonials part  */
     .testy .testy-content #content {       
