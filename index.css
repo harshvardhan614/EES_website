@@ -176,7 +176,7 @@ section {
     width: 380px;
     background-size: cover;
     z-index: -4; 
-    
+    transition: 0.3s all ease;
 }
 
 .about .about-content .column .boxing::after{
@@ -191,6 +191,12 @@ section {
     z-index: -8;
 }
 
+
+  /* about us and aatish page  */
+  .about .about-content .column:hover .boxinger::before,
+  .about .about-content .column:hover .boxing::before{
+      border: 2px solid #5ce1e6;      
+  }
 
 
 .about .about-content .right{
@@ -248,7 +254,7 @@ section {
     width: 380px;
     background-size: cover;
     z-index: -4; 
-    
+    transition: 0.3s all ease;
 }
 
 .about .about-content .column .boxinger::after{
@@ -309,6 +315,7 @@ section {
   div#row .boxes .box2,
   div#row .boxes .box3 {
     padding: 10px 20px;
+    cursor: pointer;
   }
   
   div#row .boxes img {
@@ -319,6 +326,12 @@ section {
     height: 300px;
     border: 10px double #fff;
     border-radius: 10px;
+    transition: 0.3s all ease;
+  }
+
+  div#row .boxes img:hover {
+      border: 10px double #5ce1e6;
+      transform: scale(1.01);
   }
   
   #row h3 {

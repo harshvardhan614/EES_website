@@ -275,14 +275,20 @@
         left: 170px;
     }
 
-    .about .about-content .column .boxinger,
-    .about .about-content .column .boxing ,
+    .about .about-content .column .boxinger::before,
+    .about .about-content .column .boxing::before ,
     .about .about-content .column .boxing::after,
     .about .about-content .column .boxinger::after{
-         background: none;
+         display: none;
     }
 
+    /* about us and aatish page  */
+    .about .about-content .column .boxinger,
+    .about .about-content .column .boxing{
+        border: 2px solid #5ce1e6;      
+    }
 
+    
     .about .about-content .column .boxinger::before {      
         top: 50px;
         right: 90px;
@@ -350,7 +356,14 @@
 
   /* mobile port  */
   @media (max-width: 500px){
-    
+
+   /* about us and aatish page  */
+    .about .about-content .left {
+        width: 95%;
+    }
+
+  
+
     /* faculty advisor part  */
     div #adhead {
         font-size: 1.4rem;
@@ -410,7 +423,18 @@
    }
 }
 
-@media (max-width: 390px){
+@media (max-width: 390px){  
+
+
+        /* about us and aatish page  */
+        .about .about-content .column .boxinger,
+        .about .about-content .column .boxing{
+            border: 2px solid #5ce1e6;
+            height: 200px;
+           width: 250px;
+        }
+
+        
 
     /* navigation part  */
     .logo img {
