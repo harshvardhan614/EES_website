@@ -311,11 +311,31 @@ section {
   div#row .boxes {
     padding: 10px 15px;
   }
+
+
+  div#row .boxes a{
+   color: white;
+   font-size: 10px;
+   opacity: 0; 
+  }
+
+  div#row .boxes a:hover{
+   color: white;
+   font-size: 10px;
+   opacity: 1;
+  
+  }
+
+  div#row .boxes a:hover img{
+     opacity: 0.9;
+  }
+
   div#row .boxes .box1,
   div#row .boxes .box2,
   div#row .boxes .box3 {
     padding: 10px 20px;
     cursor: pointer;
+   
   }
   
   div#row .boxes img {
