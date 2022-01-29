@@ -249,7 +249,8 @@ body{
 /* contact part  */
 .contact{
    
-    background: linear-gradient( #001c2a96 , #001c2a96  ), url("../Data/Common/contact.jpg");
+     /* background: linear-gradient( #001c2abd , #001c2aba  ), url("Data/Common/contact.jpg"); */
+     background-color: #001c2a;
     background-size: cover;
     background-position: center;
     background-color: #001c2a;

@@ -238,7 +238,7 @@ body {
   color: #378aee;
   text-decoration: none;
   transition: all 350ms linear;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 .text-overlay a:hover {
   color: #449cc5;
@@ -331,8 +331,8 @@ body {
 }
 
 /* contact part  */
-.contact {
-  background-color: #001c2a;
+/* .contact {
+  /* background-color: #001c2a; 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -340,6 +340,20 @@ body {
   padding: 20px 0;
   color: white;
   font-family: "Poppins", sans-serif;
+  background-image: url('image/contact.jpg');
+} */
+
+
+.contact {
+    /* background: linear-gradient( #001c2abd , #001c2aba  ), url("Data/Common/contact.jpg"); */
+    background-color: #001c2a;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin-top: 40px;
+  padding: 20px 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact h1 {
@@ -416,7 +430,7 @@ body {
   align-items: center;
   width: 50px;
   height: 50px;
-  padding: 14px;
+  padding: 0.3vw;
   border-radius: 50%;
   background-color: #5ce1e6;
   color: white;
@@ -429,7 +443,7 @@ body {
 }
 
 /* footer part  */
-
+/* 
 footer {
   background-color: #001c2a;
   color: whitesmoke;
@@ -437,6 +451,15 @@ footer {
   padding: 6px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
+} */
+
+footer {
+  background-color: #5ce1e6;
+  color: black;
+  font-size: 16px;
+  padding: 6px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer span {
@@ -563,7 +586,7 @@ footer span {
   .social-icon li a {
     width: 40px;
     height: 40px;
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 1rem;
   }
 

@@ -107,13 +107,17 @@
   }
   
   .slide h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-size: 5vw;
+  }
+  .title-text2 {
+    
+    font-size: 5vw;
+    
   }
 }
 
 @media (max-width: 993px){
-
 
    .eventsection1{
     
@@ -310,6 +314,9 @@
     line-height: 5vw;
     
  }
+ .effect--1{
+   padding-bottom: 20vw;
+ }
   }
 
 
@@ -363,6 +370,9 @@
 .contact{
   height: 45%;
 }
+.effect--1{
+  padding-bottom: 29vw;
+}
   }
   @media (max-width: 1100px) {
   .contact{
@@ -385,6 +395,10 @@
    
     height: 53vw;
    
+  }
+  .title-text2 {
+    
+    font-size: 7vw;
   }
 }
 @media (max-width: 600px) {
@@ -553,3 +567,6 @@
     }
   }
   
+  
+
+

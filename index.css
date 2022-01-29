@@ -163,6 +163,7 @@ section {
     position: relative;
     z-index: 9;
     cursor: pointer;
+    transition: 0.3s all ease;
 }
 
 
@@ -189,12 +190,17 @@ section {
     width: 380px;
     background-size: cover;
     z-index: -8;
+    transition: 0.3s all ease;
 }
 
 
   /* about us and aatish page  */
+  .about .about-content .column:hover .boxinger,
+  .about .about-content .column:hover .boxinger::after,
   .about .about-content .column:hover .boxinger::before,
-  .about .about-content .column:hover .boxing::before{
+  .about .about-content .column:hover .boxing::before,
+  .about .about-content .column:hover .boxing::after,
+  .about .about-content .column:hover .boxing{
       border: 2px solid #5ce1e6;      
   }
 
@@ -232,7 +238,7 @@ section {
 }
 
 .about .about-content .column .boxinger{
-    background: url("Data/Common/home_page_image/2.jpg") no-repeat center;   
+    background: url("Data/Common/home_page_image/2.2.jpg") no-repeat center;   
     height: 280px;
     width: 380px;
     background-size: cover;
@@ -241,12 +247,13 @@ section {
     cursor: pointer;    
     float: right;
     margin-right: 40px;
+    transition: 0.3s all ease;
 }
 
 
 .about .about-content .column .boxinger::before{
     content: " ";
-    background: url("Data/Common/home_page_image/1.jpg") no-repeat center;
+    background: url("Data/Common/home_page_image/1.1.jpg") no-repeat center;
     position: absolute;    
     top: 70px;
     right: 70px;
@@ -259,7 +266,7 @@ section {
 
 .about .about-content .column .boxinger::after{
     content: " ";
-    background: url("Data/Common/home_page_image/3.jpg") no-repeat center;
+    background: url("Data/Common/home_page_image/3.3.png") no-repeat center;
     position: absolute;
     top: 35px;
     right: 35px;
@@ -267,6 +274,7 @@ section {
     width: 380px;
     background-size: cover;
     z-index: -8;
+    transition: 0.3s all ease;
 }
 
 
@@ -457,7 +465,8 @@ section {
   /* contact part  */
 .contact{
    
-    background: linear-gradient( #001c2abd , #001c2aba  ), url("Data/Common/contact.jpg");
+    /* background: linear-gradient( #001c2abd , #001c2aba  ), url("Data/Common/contact.jpg"); */
+    background-color: #001c2a;
     background-size: cover;
     background-position: center;
     height: 100%;
