@@ -106,7 +106,7 @@
     }
 
     #row h3 {       
-        font-size: 1rem;      
+        font-size: 1.7rem;      
         margin: 20px auto 10px;        
     }
 
@@ -115,11 +115,11 @@
     }
 
     #row h4 {        
-        font-size: 1.2rem;       
+        font-size: 1.7rem;       
     }
 
     #row h5 {
-        font-size: .8rem;
+        font-size: 1.3rem;
     }
 
 }
@@ -128,7 +128,7 @@
     /* navigation bar  */
     .menu {
         position: fixed;
-        top: 80px;
+        top: 68px;
        right: -100%;
         background-color: #001c2a;
         height: 100vh;
@@ -243,7 +243,7 @@
         width: 40px;
         height: 40px;
         padding: 10px;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     /* footer part  */
@@ -334,6 +334,11 @@
        
     }
 
+    /* testimonials part  */
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+
     /* contact part  */
     .contact h1 {
         font-size: 25px;
@@ -358,6 +363,10 @@
   @media (max-width: 500px){
 
    /* about us and aatish page  */
+   .about .about-content .column .title{
+       font-size: 40px;
+   }
+
     .about .about-content .left {
         width: 95%;
     }
@@ -366,7 +375,7 @@
 
     /* faculty advisor part  */
     div #adhead {
-        font-size: 1.4rem;
+        font-size: 2.2rem;
     }
 
     #faculty h1::after {       

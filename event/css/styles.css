@@ -513,7 +513,7 @@ svg circle {
   background-color:#001c2a ;
   background-size: cover;
   background-position: center;
-  height: 35vw;
+  height: 30vw;
   margin-top: 40px;
   padding: 20px 0;
   color: white;
@@ -522,7 +522,7 @@ svg circle {
 
 .contact h1{    
   font-size: 45px;
-  padding: 0 0 15px 0;
+  /* padding: 0 0 15px 0; */
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;

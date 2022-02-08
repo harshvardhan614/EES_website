@@ -39,6 +39,7 @@ section {
     background-color: #001c2a;
     z-index: 99;
     width: 100%;
+    margin-bottom: 0;
 }
 
 .nav-content{
@@ -221,6 +222,8 @@ section {
 
 .about .about-content .column p {
     text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
  }
 
 .about .about-content .column .text {
@@ -287,7 +290,7 @@ section {
   }
   
   div #adhead {
-    font-size: 1.8rem;
+    font-size: 3rem;
     padding-top: 40px;
     text-align: center;
     font-weight: 400;
@@ -341,7 +344,7 @@ section {
   div#row .boxes .box1,
   div#row .boxes .box2,
   div#row .boxes .box3 {
-    padding: 10px 20px;
+    padding: 10px 0px;
     cursor: pointer;
    
   }
@@ -379,14 +382,14 @@ section {
   }
   #row h4 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 400;
-    margin: 0px auto;
+    margin: 8px auto;
   }
   
   #row h5 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-weight: 400;
     margin: 0px auto;
   }
@@ -401,7 +404,7 @@ section {
  }
 
  .testy .testy-content h1{
-    font-size: 2.5rem;   
+    font-size: 4.5rem;   
     font-weight: 400;  
     color: #5ce1e6; 
  }
@@ -431,34 +434,61 @@ section {
     width: 70%;
 }
 
-
-.testy .testy-content #content .img-box{
-    margin: 30px 0;
+/* testimonials slider */
+.slider-area{
+    padding: 50px 0;
+    position: relative;   
 }
 
-.testy .testy-content #content img{
-    height: 180px;
+.carousel-control.left,
+.carousel-control.right{
+    background: transparent;
+    width: 0%;
+}
+
+.img-area{
+    display: flex;    
+     align-items: center;
+    justify-content: center; 
+    margin-bottom: 50px;
+    
+}
+
+.img-area img{
+     height: 180px;
     width: 180px;
-    border-radius: 50%;
-    object-fit: cover ;
+    margin: auto;
     border: 3px solid #2f9484;
+    border-radius: 50%;
+   
+    object-fit: cover;
 }
 
-.testy .testy-content #content  p{
-    text-align: center;
+.carousel-caption{
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.carousel-caption p{
     letter-spacing: .8px;
+    margin: 0 20px 10px 20px;
 }
 
-.testy .testy-content #content h2{
+.carousel-caption h2{
     margin-top: 20px;
     font-weight: 500;
-    color: #5ce1e6;    
+    color: #5ce1e6;  
 }
 
-.testy .testy-content #content h4{
+.carousel-caption h4{
     font-size: 20px;    
     font-weight: 500;
-    color: #5ce1e6;    
+    color: #5ce1e6;   
+}
+
+.carousel-indicators {
+    bottom: -20px;
 }
 
 
@@ -556,7 +586,7 @@ section {
     border-radius: 50%;
     background-color: #5ce1e6;
     color: white;   
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     transition: all 0.3s;
 }
 
