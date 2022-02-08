@@ -191,7 +191,7 @@
   }
     /* navigation bar  */
     .menu {
-      /* position: fixed; */
+      position: absolute;
       top: 80px;
       right: -100%;
       background-color: #001c2a;
