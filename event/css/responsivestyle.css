@@ -184,9 +184,14 @@
   
 }
 @media (max-width: 900px) {
+
+  .navbar{
+    background-color: #001c2a;
+    /* position: fixed; */
+  }
     /* navigation bar  */
     .menu {
-      position: fixed;
+      /* position: fixed; */
       top: 80px;
       right: -100%;
       background-color: #001c2a;
