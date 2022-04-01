@@ -281,6 +281,27 @@ section {
 }
 
 
+.register{
+    display: inline-block;
+    background-color: #5ce1e6;
+    font-size: 20px;
+    font-weight: 500;
+    color: #001c2a;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid #5ce1e6;
+    padding: 8px 24px;
+    transition: all 0.3s ease;    
+}
+
+.register:hover{
+    background: none;
+    color: #5ce1e6;
+    text-decoration: none;
+}
+
+
 /* faculty advisor section  */
 /* faculty page css */
 #faculty {
